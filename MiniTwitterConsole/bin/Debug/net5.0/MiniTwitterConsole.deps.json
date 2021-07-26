@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MiniTwitterConsole/1.0.0": {
+        "dependencies": {
+          "MiniTwitterShared": "1.0.0"
+        },
+        "runtime": {
+          "MiniTwitterConsole.dll": {}
+        }
+      },
+      "MiniTwitterShared/1.0.0": {
+        "runtime": {
+          "MiniTwitterShared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniTwitterConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniTwitterShared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

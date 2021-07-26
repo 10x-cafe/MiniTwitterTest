@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterConsole\\MiniTwitterConsole.csproj": {}
+  },
+  "projects": {
+    "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterConsole\\MiniTwitterConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterConsole\\MiniTwitterConsole.csproj",
+        "projectName": "MiniTwitterConsole",
+        "projectPath": "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterConsole\\MiniTwitterConsole.csproj",
+        "packagesPath": "C:\\Users\\ZandreSchalkwyk\\.nuget\\packages\\",
+        "outputPath": "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ZandreSchalkwyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.102/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/LjYbGufneyW9FVQDjYQA1c5t2amNKzGSlzLcrlBI8fQYWQ3iTC/api": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterShared\\MiniTwitterShared.csproj": {
+                "projectPath": "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterShared\\MiniTwitterShared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterShared\\MiniTwitterShared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterShared\\MiniTwitterShared.csproj",
+        "projectName": "MiniTwitterShared",
+        "projectPath": "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterShared\\MiniTwitterShared.csproj",
+        "packagesPath": "C:\\Users\\ZandreSchalkwyk\\.nuget\\packages\\",
+        "outputPath": "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterShared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ZandreSchalkwyk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://192.168.1.102/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/LjYbGufneyW9FVQDjYQA1c5t2amNKzGSlzLcrlBI8fQYWQ3iTC/api": {},
+          "https://pkgs.dev.azure.com/dnceng/public/_packaging/dotnet6/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

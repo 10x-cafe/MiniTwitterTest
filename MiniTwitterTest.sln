@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTwitterConsole", "MiniTwitterConsole\MiniTwitterConsole.csproj", "{3A69BA7A-F8AA-4082-B657-AF5414DD90A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTwitterShared", "MiniTwitterShared\MiniTwitterShared.csproj", "{0425C10B-3168-4131-958C-CF5E9136A00E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A69BA7A-F8AA-4082-B657-AF5414DD90A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A69BA7A-F8AA-4082-B657-AF5414DD90A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A69BA7A-F8AA-4082-B657-AF5414DD90A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A69BA7A-F8AA-4082-B657-AF5414DD90A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0425C10B-3168-4131-958C-CF5E9136A00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0425C10B-3168-4131-958C-CF5E9136A00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0425C10B-3168-4131-958C-CF5E9136A00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0425C10B-3168-4131-958C-CF5E9136A00E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {299C3995-985A-4DDC-A0D4-9D0E6627983D}
+	EndGlobalSection
+EndGlobal

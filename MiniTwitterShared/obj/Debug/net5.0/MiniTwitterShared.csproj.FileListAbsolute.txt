@@ -1,0 +1,12 @@
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\bin\Debug\net5.0\MiniTwitterShared.deps.json
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\bin\Debug\net5.0\MiniTwitterShared.dll
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\bin\Debug\net5.0\ref\MiniTwitterShared.dll
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\bin\Debug\net5.0\MiniTwitterShared.pdb
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\obj\Debug\net5.0\MiniTwitterShared.csproj.AssemblyReference.cache
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\obj\Debug\net5.0\MiniTwitterShared.GeneratedMSBuildEditorConfig.editorconfig
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\obj\Debug\net5.0\MiniTwitterShared.AssemblyInfoInputs.cache
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\obj\Debug\net5.0\MiniTwitterShared.AssemblyInfo.cs
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\obj\Debug\net5.0\MiniTwitterShared.csproj.CoreCompileInputs.cache
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\obj\Debug\net5.0\MiniTwitterShared.dll
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\obj\Debug\net5.0\ref\MiniTwitterShared.dll
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterShared\obj\Debug\net5.0\MiniTwitterShared.pdb
