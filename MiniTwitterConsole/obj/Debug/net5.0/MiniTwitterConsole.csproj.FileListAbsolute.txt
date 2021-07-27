@@ -19,3 +19,6 @@ F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterConsole\obj\Debug\net5.0\MiniTwi
 F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterConsole\obj\Debug\net5.0\ref\MiniTwitterConsole.dll
 F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterConsole\obj\Debug\net5.0\MiniTwitterConsole.pdb
 F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterConsole\obj\Debug\net5.0\MiniTwitterConsole.genruntimeconfig.cache
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterConsole\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterConsole\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterConsole\bin\Debug\net5.0\System.IO.Pipelines.dll

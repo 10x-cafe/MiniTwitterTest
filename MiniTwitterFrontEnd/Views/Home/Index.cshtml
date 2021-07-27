@@ -1,0 +1,25 @@
+﻿@model TweetViewInput
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome To The MiniTwitter Demo</h1>
+    <p>Please upload the user.txt and the tweet.txt files to see the tweets displayed on the screen.
+</div>
+<form asp-controller="Home" asp-action="Index" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label class="form-label">User.txt</label>
+        <input asp-for="UserFile" class="form-control" type="file" id="formFile">
+        <span style="color:red" asp-validation-for="UserFile"></span>
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Tweet.txt</label>
+        <input asp-for="TweetFile" class="form-control" type="file" id="formFile">
+        <span style="color:red" asp-validation-for="TweetFile"></span>
+    </div>
+    <div class="mb-1">
+        <input class="form-control btn btn-primary" type="submit" value="Submit" />
+    </div>
+    <div asp-validation-summary="ModelOnly"></div>
+</form>

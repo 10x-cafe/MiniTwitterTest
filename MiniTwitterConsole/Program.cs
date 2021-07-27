@@ -25,65 +25,23 @@ namespace MiniTwitterConsole
                 return;
             }
 
-            var userList = new List<User>();
-            var tweetList = new List<Tweet>();
 
             var usersFileContents = File.ReadAllLines("user.txt");
 
             var tweetFileContents = File.ReadAllLines("tweet.txt");
 
+            var userDisplayModel =
+                new UserTweetDisplay(
+                    usersFileContents.ToList(),
+                    tweetFileContents.ToList()
+                );
 
-            foreach (var userLine in usersFileContents)
-            {
-                var userDetails = userLine.Split("follows");
-                var userName = userDetails[0].Trim();
-                var peopleThisUserFollows = userDetails[1].Split(',').ToList();
-
-                userList.Add(new User
-                {
-                    Name = userName,
-                    PeopleThisUserFollows =
-                        peopleThisUserFollows
-                            .Select(x => x.Trim())
-                            .ToList()
-                });
-            }
-
-            var count = 1;
-
-            foreach (var tweetLine in tweetFileContents)
-            {
-                var tweetDetails = tweetLine.Split(">");
-                var user = tweetDetails[0].Trim();
-                var tweet = tweetDetails[1].Trim();
-
-                if (tweet.Length > 280)
-                {
-                    continue;
-                }
-
-                tweetList.Add(new Tweet
-                {
-                    Id = count,
-                    User = user,
-                    Message = tweet
-                });
-                count++;
-            }
-
-            foreach (var user in userList.OrderBy(x=>x.Name))
+            foreach (var user in userDisplayModel.Users)
             {
                 Console.WriteLine(user.Name);
-                foreach (var tweet in tweetList.OrderBy(x=>x.Id))
+                foreach (var tweet in user.UserFeed)
                 {
-                    if
-                    (
-                        user.PeopleThisUserFollows.Contains(tweet.User) ||
-                        user.Name == tweet.User
-                    )
-                    {
-                        Console.WriteLine($"\t@{tweet.User}: {tweet.Message}");
-                    }
+                    Console.WriteLine($"\t@{tweet.User}: {tweet.Message}");
                 }
             }
         }

@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Y5WAR3UAhCVM6M26xtf0T/nA9zCp5rKQTPkfoSkR+wE2DV7/sj0C/CNv/U2hsZAKPEmOnqTAusWUVlk4yrM8Cw==",
+  "dgSpecHash": "bpyXA8gwJS/dejI6FZ256Di1W0LFB8ycEEzzbobieknlG6xXA1sq8k5gc8Z1YTfRNT9LMn3MMohWzlF2vxdS2g==",
   "success": true,
   "projectFilePath": "F:\\Clients\\LinumLabs\\MiniTwitterTest\\MiniTwitterShared\\MiniTwitterShared.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ZandreSchalkwyk\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.8\\microsoft.aspnetcore.http.features.5.0.8.nupkg.sha512",
+    "C:\\Users\\ZandreSchalkwyk\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.1\\microsoft.extensions.primitives.5.0.1.nupkg.sha512",
+    "C:\\Users\\ZandreSchalkwyk\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\ZandreSchalkwyk\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.7\\microsoft.netcore.app.runtime.win-x64.5.0.7.nupkg.sha512",
+    "C:\\Users\\ZandreSchalkwyk\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.7.nupkg.sha512",
+    "C:\\Users\\ZandreSchalkwyk\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.7\\microsoft.aspnetcore.app.runtime.win-x64.5.0.7.nupkg.sha512"
+  ],
   "logs": []
 }

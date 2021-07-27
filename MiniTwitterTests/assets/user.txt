@@ -1,0 +1,3 @@
+Kent follows Michael
+Michael follows Veronica
+Kent follows Veronica, Michael

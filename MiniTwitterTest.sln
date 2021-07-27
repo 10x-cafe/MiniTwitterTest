@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTwitterConsole", "MiniTwitterConsole\MiniTwitterConsole.csproj", "{3A69BA7A-F8AA-4082-B657-AF5414DD90A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniTwitterConsole", "MiniTwitterConsole\MiniTwitterConsole.csproj", "{3A69BA7A-F8AA-4082-B657-AF5414DD90A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTwitterShared", "MiniTwitterShared\MiniTwitterShared.csproj", "{0425C10B-3168-4131-958C-CF5E9136A00E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MiniTwitterShared", "MiniTwitterShared\MiniTwitterShared.csproj", "{0425C10B-3168-4131-958C-CF5E9136A00E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTwitterFrontEnd", "MiniTwitterFrontEnd\MiniTwitterFrontEnd.csproj", "{BE1BE411-7176-4215-AC93-51E011BA2931}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiniTwitterTests", "MiniTwitterTests\MiniTwitterTests.csproj", "{07B4AE09-9FA1-44BE-8651-11CEF1D43061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{0425C10B-3168-4131-958C-CF5E9136A00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0425C10B-3168-4131-958C-CF5E9136A00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0425C10B-3168-4131-958C-CF5E9136A00E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BE1BE411-7176-4215-AC93-51E011BA2931}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE1BE411-7176-4215-AC93-51E011BA2931}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE1BE411-7176-4215-AC93-51E011BA2931}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BE1BE411-7176-4215-AC93-51E011BA2931}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07B4AE09-9FA1-44BE-8651-11CEF1D43061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07B4AE09-9FA1-44BE-8651-11CEF1D43061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07B4AE09-9FA1-44BE-8651-11CEF1D43061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07B4AE09-9FA1-44BE-8651-11CEF1D43061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

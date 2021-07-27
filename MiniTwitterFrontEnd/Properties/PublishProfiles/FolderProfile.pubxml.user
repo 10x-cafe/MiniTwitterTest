@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>F:\Clients\LinumLabs\MiniTwitterTest\MiniTwitterFrontEnd\bin\Release\net5.0\publish\</_PublishTargetUrl>
+    <History>True|2021-07-27T20:58:13.5644256Z;True|2021-07-27T22:57:54.8878855+02:00;True|2021-07-27T22:55:15.6568994+02:00;</History>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,16 @@
+﻿@model UserTweetDisplay
+
+@foreach (var user in Model.Users)
+{
+    <div class="card col-12 text-center">
+        <div class="card-body">
+            <h5 class="card-title">@user.Name</h5>
+            <ul class="list-group list-group-flush">
+                @foreach (var tweet in user.UserFeed)
+                {
+                    <li class="list-group-item"><span style="font-weight:bold">@@@tweet.User</span>: @tweet.Message </li>
+                }
+            </ul>
+        </div>
+    </div>
+}
